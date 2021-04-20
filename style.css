@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Cuprum', sans-serif;
 }
 .header{
     margin-top: 50px;
     margin-left: 50px;
-    border-top: 1px solid lightgray;
+    border-top: 1px solid rgb(238, 238, 238);
     padding-top: 15px;
     padding-bottom: 15px;
     width: 1400px;
@@ -20,7 +21,7 @@
     display: inline-block;
 }
 .container{
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     width: 1400px;
     height: 600px;
     margin: auto;
@@ -34,7 +35,7 @@
     border-radius: 5px;
 }
 .bottoni{
-    border-bottom: 2px solid lightgray;
+    border-bottom: 2px solid rgb(238, 238, 238);
     padding: 20px;
 }
 .add-task{
@@ -51,7 +52,7 @@
 }
 
 .new-task, .today, .upcoming{
-    padding: 20px;
+    padding: 10px;
     
 }
 ul{
@@ -86,9 +87,23 @@ h3{
     font-size: 20px;
 }
 .bottom{
-    background-color: red;
     padding: 5px;
     border-radius: 10px;
     color: white;
     font-size: 10px;
+}
+.goals{
+    background-color: slateblue;
+}
+.recruiting{
+    background-color: rgb(39, 170, 103);
+}
+.mobile{
+    background-color: rgb(255, 181, 44);
+}
+.website{
+    background-color: violet;
+}
+.sales{
+    background-color: rgb(171, 253, 63);
 }
