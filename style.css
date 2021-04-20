@@ -9,6 +9,7 @@
     border-top: 1px solid lightgray;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 1400px;
 }
 .logo{
     vertical-align: middle;
@@ -31,4 +32,20 @@
     height: 550px;
     margin: auto;
     border-radius: 5px;
+}
+.bottoni{
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+.add-task{
+    background-color: lightskyblue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.add-section{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    color: lightgray;
 }
