@@ -34,7 +34,7 @@
     border-radius: 5px;
 }
 .bottoni{
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid lightgray;
     padding: 20px;
 }
 .add-task{
@@ -48,4 +48,47 @@
     border-radius: 5px;
     padding: 5px;
     color: lightgray;
+}
+
+.new-task, .today, .upcoming{
+    padding: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+}
+li{
+    margin-bottom: 15px;
+}
+.check{
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 100%;
+}
+.cross{
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+
+}
+.bottom-editorial{
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    
+}
+h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.bottom{
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
 }
